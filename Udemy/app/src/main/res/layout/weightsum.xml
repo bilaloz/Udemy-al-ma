@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cfb"
+    >
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="fill_parent"
+        android:hint="Buraya yazınız"
+        android:background="#CE93D8"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/et"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:layout_marginTop="10dp"
+        >
+        <ToggleButton
+            android:layout_weight="70"
+            android:id="@+id/tb"
+            android:layout_width="wrap_content"
+            android:checked="false"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_weight="30"
+            android:layout_height="wrap_content"
+            android:text="Gönder"
+            android:id="@+id/btn"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="YAZI GELCEK"
+        android:id="@+id/tv"
+        android:textSize="30dp"/>
+
+</LinearLayout>

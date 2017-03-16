@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.windows10.udemy.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/tt1"
+            android:textSize="30dp"
+            />
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:text="ARTİ"
+            android:onClick="btn"
+            android:id="@+id/arti"
+            android:textSize="15dp"
+            android:layout_gravity="center_horizontal"
+            />
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:text="EKSİ"
+            android:onClick="btn"
+            android:id="@+id/eksi"
+            android:textSize="15dp"
+            android:layout_gravity="center_horizontal"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
